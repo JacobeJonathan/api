@@ -1,0 +1,35 @@
+# api
+creando api en .net en visualstudio code, postmant y sql
+creando api en .net en visualstudio code, postmant y sql
+--------------------------------------------------------
+- 1.-mkdir webapi
+- 2.-cd webapi
+- 3.-dotnet new
+- 4.-dotnet new --list
+- 5.-dotnet webapi
+- 6.-code. 
+## =====Para ejecutar==== 
+- terminal
+- escribimos dotnet run
+- o ctrl + j
+## ====postman=====
+Entramos a postmant para probar si es api esta funcionando
+- 1.- Ponemos en get
+- 2.-Pegamos el enlace de nuestra api
+
+## ===nos va salir error 404===
+Porque no realiza ninguna accion
+## ====nos vamos al visualstudio===
+- y buscamos la carpeta controler con el archivo weatherforecastcontroller.cs
+- vemos el nombre de la clase y lo agregamos despues del /
+- ejemplo
+- https://localhost:7177/WeatherForecast 
+- y send en postmand
+
+El patron es :
+
+Model = Datos
+
+View = interfaz de usuario
+
+Controller= lógica
